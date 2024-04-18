@@ -27,9 +27,10 @@ Explore the folders to find detailed documentation on each S.O.L.I.D. principle.
 Refer to the practical examples to see how the S.O.L.I.D. principles are applied in real-world situations.
 Utilize the additional resources to expand your knowledge of the S.O.L.I.D. principles and recommended software design practices.
 
-# 💡 Author
+## 👩 Author
 
-- Flávio Aquila ([@Icegreen](https://twitter.com/Icegreen__))
+| [<img src="https://avatars.githubusercontent.com/u/56550632?v=4" width="150px;" alt="Flávio Áquila"/><br /><sub><b>@lcegreen</b></sub>](https://github.com/Icegreeen)<br /> |
+| :---: |
 
 # :tada: Contributing
 
