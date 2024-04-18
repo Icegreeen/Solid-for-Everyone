@@ -1,8 +1,8 @@
-# 📓 The Essential Guide to S.O.L.I.D. | From theory to practice.
+# 📓 The Guide to S.O.L.I.D. | From theory to practice.
 
 ![871shots_so](https://github.com/Icegreeen/blog-graphQL/assets/56550632/1dc32514-36b6-483c-ae64-ee9611334cb4)
 
-# 🐞 Introduction to S.O.L.I.D. Principles
+# 🐦‍⬛ Introduction to S.O.L.I.D. Principles
 
 Welcome to the repository dedicated to the S.O.L.I.D. principles! These principles are fundamental to building robust, flexible, and maintainable software. Created by Robert C. Martin, also known as Uncle Bob, the S.O.L.I.D. principles represent a set of guidelines that help developers write cleaner, more modular, and efficient code.
 
