@@ -1,9 +1,9 @@
 
 Let's compare the two approaches: one without following the SRP principle and the other applying the SRP principle in the context of the payments system.
 
-
 Without SRP:
 
+```ts
 class PaymentProcessor {
     public processPayment(): void {
         // Simulating transaction reading
@@ -40,9 +40,11 @@ class PaymentProcessor {
 
 const paymentProcessor = new PaymentProcessor();
 paymentProcessor.processPayment();
+```
 
 Applying the SRP:
 
+```ts
 class PaymentTransactionReader {
     public readTransaction(): Transaction {
         // Here we would perform the transaction reading, e.g., from a database
@@ -77,23 +79,23 @@ const transactionLogger = new PaymentTransactionLogger();
 const transaction = transactionReader.readTransaction();
 const fee = feeCalculator.calculateFee(transaction);
 transactionLogger.logTransaction(transaction, fee);
+```
 
 Comparison:
 
-- Without SRP:
+### Without SRP:
 
-The PaymentProcessor class is responsible for reading the transaction, calculating the fee, and logging the transaction to a log file.
+- The PaymentProcessor class is responsible for reading the transaction, calculating the fee, and logging the transaction to a log file.
+- This violates the SRP because the class is dealing with multiple responsibilities.
 
-This violates the SRP because the class is dealing with multiple responsibilities.
-
-- With SRP:
+### With SRP:
 
 We have three distinct classes, each with a single responsibility:
 
-PaymentTransactionReader is responsible only for reading payment transactions.
-PaymentFeeCalculator is responsible only for calculating the fee for a payment transaction.
-    
-PaymentTransactionLogger is responsible only for logging payment transactions to a log file.
+-   PaymentTransactionReader is responsible only for reading payment transactions.
+-   PaymentFeeCalculator is responsible only for calculating the fee for a payment transaction.   
+-   PaymentTransactionLogger is responsible only for logging payment transactions to a log file.
+
 Each class has a single reason to change and is easier to understand and maintain.
 
 Following the SRP makes the code more modular, cohesive, and easier to understand, facilitating maintenance and evolution of the system over time.

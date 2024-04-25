@@ -34,6 +34,12 @@ Utilize the additional resources to expand your knowledge of the S.O.L.I.D. prin
 
 # :tada: Contributing
 
-Feel free to **file a new issue** with a respective title and description. If you already found a solution to your problem, **I would love to review your pull request**!
+Feel free to make a contribution to this repository.
 
-Check out the [contributing](https://github.com/Icegreeen/backseasy/blob/master/CONTRIBUTING.MD) page to see the best places to file issues, start discussions and begin contributing
+1. Fork this project
+2. Create a new branch with the chore (`git checkout -b new/name-branch`)
+3. Make a new commit (`git commit -m 'name commit'`)
+4. Push it into the branch (`git push origin new/name-branch`)
+5. Open a Pull Request
+
+All the contributions are **extremely appreciated**.
